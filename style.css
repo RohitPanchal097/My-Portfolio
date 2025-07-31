@@ -11,12 +11,12 @@ body{
 
 .container{
     position: relative;
+    z-index: 22;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-self: center;
-    justify-content: center;
     gap: 100px;
     background-color: #001f7c38;
 
@@ -259,10 +259,9 @@ font-size: 20px;
 .info-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-top: 100px;
-    align-items: center;       
-    position: relative;
+    align-items: center;    
+    align-self: center;
     width: 80%;
 }
 
@@ -278,8 +277,6 @@ font-size: 20px;
     width: 100%;
     height: 100%;
     margin-top: 30px;
-    align-self:center;
-    
 }
 
 .card{
